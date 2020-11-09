@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Test page</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <form class="form">
+
+        <!-- input params -->
+    <label for="start" class="label">Start:</label>
+    <input id="start" type="number" class="input_text" placeholder="0">
+    <label for="end" class="label">End:</label>
+    <input id="end" type="number" class="input_text" placeholder="0">
+    
+    <div class="evenOdd">
+        <!-- <div > -->
+            <label for="even" class="pointer"><input type="checkbox" name="isEven" id="even">
+          Even</label>
+        <!-- </div> -->
+        <!-- <div> -->
+            <label for="odd" class="pointer"><input type="checkbox" name="isOdd" id="odd">
+            Odd</label>
+        <!-- </div> -->
+    </div>
+
+    <!-- calc -->
+    <input type="button" id="but" class="but" value="Calc">
+
+    <!-- result -->
+    <label for="result" class="label">Result:</label>
+    <input type="text" disabled id="result">
+
+    <!-- clean -->
+    <input type="reset" value="Clean" class="but">
+
+</form>
+
+
+<script src="./script/script.js"></script>
+</body>
+</html>
